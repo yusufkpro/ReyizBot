@@ -2,9 +2,9 @@
   "name": "reyizbot",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node bot.js"
   },
   "author": "Yusuf",
   "license": "ISC",
