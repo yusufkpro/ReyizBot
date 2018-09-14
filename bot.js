@@ -77,7 +77,6 @@ client.unload = command => {
     }
   });
 };
-
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
@@ -86,6 +85,7 @@ client.on('message', msg => {
 		msg.reply('Aleyküm selam, hoş geldin ^^');
 		}
 	}
+});
 
 client.elevation = message => {
   if(!message.guild) {
