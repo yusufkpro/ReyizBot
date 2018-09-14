@@ -106,6 +106,18 @@ client.on('warn', e => {
 
 client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
+	
+});
+ }
+  if (msg.content === prefix + 'sunucubilgi') {
+      const embed = new Discord.RichEmbed()
+      .setColor("RANDOM")
+      .addField("Sunucu Sahibi", msg.guild.owner)
+      .addField("Toplam Üye Sayısı", msg.guild.members.size)
+      .addField("Oluşturulma Tarihi", msg.guild.createdAt)
+      // bla bla
+      msg.channel.send(embed)
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
