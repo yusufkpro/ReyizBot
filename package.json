@@ -1,12 +1,12 @@
 {
-  "name": "discordbotdersleri",
+  "name": "reyizbot",
   "version": "0.0.1",
   "description": "",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node bot.js"
+    "test": "node index.js"
   },
-  "author": "Serhan",
+  "author": "Yusuf",
   "license": "ISC",
   "dependencies": {
     "app": "^0.1.0",
